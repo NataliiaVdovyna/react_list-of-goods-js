@@ -75,8 +75,8 @@ export const App = () => {
 
       <ul>
         {sortGoods.map(good => (
-          <li key={good.id} data-cy="Good">
-            {good.name}
+          <li key={good} data-cy="Good">
+            {good}
           </li>
         ))}
       </ul>
